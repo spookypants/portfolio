@@ -3,7 +3,7 @@ body {
 }
 
 img {
-    margin: 0 auto;
+    margin: 0;
     width: auto;
     max-height: 100vh;
 }
