@@ -37,27 +37,89 @@ ul {
     width: 50%;
     font-family: 'Arimo', sans-serif;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    /* text-align: left; */
 }
 
 .links {
     color: white;
     list-style-type: none;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 2%;
     padding: 0px;
     /* display: flex; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 li {
     padding: 15px;
     font-size: 20px;
 }
 li a {
-    color: grey;
+    /* color: grey; */
     display: inline-flex;
 }
 
-li a:hover {
-    color: grey;
+a img {
+    width: 50%;
+    height: 50%;
 }
+
+.media-text {
+    margin: 0 auto;
+}
+
+/* .games img {
+    height: 50%;
+    width: 50%;
+} */
+
+.games .card {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.game-desc {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15%;
+    color: white;
+}
+
+.video {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.media {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.media-text {
+    margin: 0 auto;
+    color: white;
+    width: 70%;
+}
+
+.spacer {
+    height: 25px;
+}
+
+.contact {
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} */
+
+/* li a:hover {
+    color: grey;
+} */
