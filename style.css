@@ -153,9 +153,13 @@ a .contact {
     height: 25px;
 }
 
-.contact {
+.contact-text {
     color: white;
     font-family: 'Arimo', sans-serif;
+}
+
+.cont-page {
+    margin-top: 15%;
 }
 
 /* li:hover {
